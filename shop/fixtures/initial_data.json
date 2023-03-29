@@ -1,0 +1,280 @@
+[
+    {
+        "model": "shop.brand",
+        "pk": 1,
+        "fields": {
+            "brand_name": "Brand 1",
+            "brand_code": "BRAND1",
+            "logo": "logos/brand1.jpg"
+        }
+    },
+    {
+        "model": "shop.brand",
+        "pk": 2,
+        "fields": {
+            "brand_name": "Brand 2",
+            "brand_code": "BRAND2",
+            "logo": "logos/brand2.jpg"
+        }
+    },
+  {
+        "model": "shop.customer",
+        "pk": 1,
+        "fields": {
+            "customer_number": "CUSTOMER0001",
+            "first_name": "John",
+            "last_name": "Doe",
+            "brand": 1,
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1,
+            "date_added": "2023-01-01T00:00:00Z",
+            "date_updated": "2023-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "shop.customer",
+        "pk": 2,
+        "fields": {
+            "customer_number": "CUSTOMER0002",
+            "first_name": "Jane",
+            "last_name": "Doe",
+            "brand": 1,
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1,
+            "date_added": "2023-01-02T00:00:00Z",
+            "date_updated": "2023-01-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "shop.customer",
+        "pk": 3,
+        "fields": {
+            "customer_number": "CUSTOMER0003",
+            "first_name": "Alice",
+            "last_name": "Smith",
+            "brand": 2,
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1,
+            "date_added": "2023-01-03T00:00:00Z",
+            "date_updated": "2023-01-03T00:00:00Z"
+        }
+    },
+    {
+        "model": "shop.customer",
+        "pk": 4,
+        "fields": {
+            "customer_number": "CUSTOMER0004",
+            "first_name": "Bob",
+            "last_name": "Johnson",
+            "brand": 2,
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1,
+            "date_added": "2023-01-04T00:00:00Z",
+            "date_updated": "2023-01-04T00:00:00Z"
+        }
+    },
+  {
+        "model": "shop.customer",
+        "pk": 5,
+        "fields": {
+            "customer_number": "CUSTOMER0005",
+            "first_name": "Greg",
+            "last_name": "Wilson",
+            "brand": 2,
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1,
+            "date_added": "2023-01-04T00:00:00Z",
+            "date_updated": "2023-01-04T00:00:00Z"
+        }
+    },
+   {
+        "model": "shop.product",
+        "pk": 1,
+        "fields": {
+            "product_number": "PRODUCT0001",
+            "currency": "USD",
+            "price": "9.99",
+            "customer": 1,
+            "description": "Product 1 Description",
+            "brand": 1,
+            "next_billing_date": "2023-04-01T00:00:00Z",
+            "previous_billing_date": "2023-03-01T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 2,
+        "fields": {
+            "product_number": "PRODUCT0002",
+            "currency": "PHP",
+            "price": "499.00",
+            "customer": 2,
+            "description": "Product 2 Description",
+            "brand": 2,
+            "next_billing_date": "2023-04-15T00:00:00Z",
+            "previous_billing_date": "2023-03-15T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    },
+  {
+        "model": "shop.product",
+        "pk": 3,
+        "fields": {
+            "product_number": "PRODUCT0003",
+            "currency": "PHP",
+            "price": "499.00",
+            "customer": 1,
+            "description": "Product 2 Description",
+            "brand": 2,
+            "next_billing_date": "2023-04-15T00:00:00Z",
+            "previous_billing_date": "2023-03-15T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    },
+  {
+        "model": "shop.product",
+        "pk": 4,
+        "fields": {
+            "product_number": "PRODUCT0004",
+            "currency": "USD",
+            "price": "5.99",
+            "customer": 1,
+            "description": "Product 4 Description",
+            "brand": 1,
+            "next_billing_date": "2023-04-01T00:00:00Z",
+            "previous_billing_date": "2023-03-01T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    },
+  {
+        "model": "shop.product",
+        "pk": 5,
+        "fields": {
+            "product_number": "PRODUCT0005",
+            "currency": "PHP",
+            "price": "320.00",
+            "customer": 3,
+            "description": "Product 5 Description",
+            "brand": 1,
+            "next_billing_date": "2023-04-15T00:00:00Z",
+            "previous_billing_date": "2023-03-15T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    },
+  {
+        "model": "shop.product",
+        "pk": 6,
+        "fields": {
+            "product_number": "PRODUCT0006",
+            "currency": "USD",
+            "price": "29.99",
+            "customer": 1,
+            "description": "Product 6 Description",
+            "brand": 1,
+            "next_billing_date": "2023-04-01T00:00:00Z",
+            "previous_billing_date": "2023-03-01T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    },
+  {
+        "model": "shop.product",
+        "pk": 7,
+        "fields": {
+            "product_number": "PRODUCT0007",
+            "currency": "USD",
+            "price": "9.99",
+            "customer": 1,
+            "description": "Product 7 Description",
+            "brand": 2,
+            "next_billing_date": "2023-04-01T00:00:00Z",
+            "previous_billing_date": "2023-03-01T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    },
+  {
+        "model": "shop.product",
+        "pk": 8,
+        "fields": {
+            "product_number": "PRODUCT0008",
+            "currency": "PHP",
+            "price": "1800",
+            "customer": 1,
+            "description": "Product 7 Description",
+            "brand": 2,
+            "next_billing_date": "2023-04-01T00:00:00Z",
+            "previous_billing_date": "2023-03-01T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    },
+  {
+        "model": "shop.product",
+        "pk": 9,
+        "fields": {
+            "product_number": "PRODUCT0009",
+            "currency": "PHP",
+            "price": "2300",
+            "customer": 1,
+            "description": "Product 9 Description",
+            "brand": 1,
+            "next_billing_date": "2023-04-01T00:00:00Z",
+            "previous_billing_date": "2023-03-01T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    },
+  {
+        "model": "shop.product",
+        "pk": 10,
+        "fields": {
+            "product_number": "PRODUCT00010",
+            "currency": "USD",
+            "price": "128.99",
+            "customer": 1,
+            "description": "Product 10 Description",
+            "brand": 2,
+            "next_billing_date": "2023-04-01T00:00:00Z",
+            "previous_billing_date": "2023-03-01T00:00:00Z",
+            "is_active": true,
+            "is_terminated": false,
+            "added_by": 1,
+            "updated_by": 1
+        }
+    }
+]
